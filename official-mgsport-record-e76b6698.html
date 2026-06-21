@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>满冠体育 · 赛事服务与运动场景</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f7f7f7;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.7;
+            color: #1e1e1e;
+            padding: 2rem 1.5rem 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page {
+            max-width: 688px;
+            width: 100%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 2.2rem 2rem 3rem;
+            border-radius: 24px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.02);
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 0.2rem;
+            color: #111;
+        }
+
+        .subhead {
+            font-size: 0.95rem;
+            color: #6b6b6b;
+            margin-bottom: 2rem;
+            border-left: 3px solid #cacaca;
+            padding-left: 1rem;
+        }
+
+        .story-opening {
+            font-size: 1.4rem;
+            font-weight: 350;
+            line-height: 1.5;
+            margin-bottom: 1.8rem;
+            color: #2a2a2a;
+            letter-spacing: -0.01em;
+        }
+
+        .story-opening em {
+            font-style: normal;
+            background: #f0f0f0;
+            padding: 0 0.2rem;
+        }
+
+        p {
+            margin-bottom: 1.4rem;
+            font-size: 1rem;
+            color: #2c2c2c;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.2rem;
+            margin: 2rem 0 2.2rem;
+        }
+
+        .feature-item {
+            background: #f4f4f4;
+            padding: 1.2rem 1.5rem;
+            border-radius: 16px;
+            transition: background 0.2s;
+            border-left: 4px solid #b0b0b0;
+        }
+
+        .feature-item:hover {
+            background: #ebebeb;
+        }
+
+        .feature-item strong {
+            display: block;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+            color: #1a1a1a;
+        }
+
+        .feature-item span {
+            font-size: 0.95rem;
+            color: #3d3d3d;
+        }
+
+        .scene-note {
+            background: #fafafa;
+            border: 1px solid #e2e2e2;
+            border-radius: 20px;
+            padding: 1.6rem 1.6rem 1.8rem;
+            margin: 2rem 0 1.8rem;
+        }
+
+        .scene-note h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            color: #1f1f1f;
+        }
+
+        .faq-part {
+            margin: 2rem 0 1rem;
+            border-top: 1px solid #ddd;
+            padding-top: 1.8rem;
+        }
+
+        .faq-part h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 0.2rem;
+        }
+
+        .faq-part p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            color: #4a4a4a;
+        }
+
+        .quiet-link {
+            color: #3b3b3b;
+            text-decoration: none;
+            border-bottom: 1px solid #aaa;
+            transition: border 0.2s, color 0.2s;
+        }
+
+        .quiet-link:hover {
+            color: #000;
+            border-bottom-color: #111;
+        }
+
+        .gentle-footer {
+            margin-top: 2.8rem;
+            font-size: 0.85rem;
+            color: #7a7a7a;
+            text-align: center;
+            border-top: 1px solid #ececec;
+            padding-top: 2rem;
+        }
+
+        .gentle-footer a {
+            color: #3b3b3b;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        .gentle-footer a:hover {
+            border-bottom-color: #8f8f8f;
+        }
+
+        @media (max-width: 560px) {
+            body {
+                padding: 1rem 0.8rem 2rem;
+            }
+
+            .page {
+                padding: 1.6rem 1.2rem 2.2rem;
+                border-radius: 20px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .story-opening {
+                font-size: 1.2rem;
+            }
+
+            .feature-item {
+                padding: 1rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1>满冠体育</h1>
+        <div class="subhead">从场地到赛程，让节奏落在实处</div>
+
+        <div class="story-opening">
+            有时一项运动不只是对抗，更是时间、空间与人的精密编排。
+        </div>
+
+        <p>
+            无论是业余联赛还是地区邀请赛，执行层面的颗粒度往往决定体验的质感。满冠体育关注的不只是“谁赢了”，更是赛事流程中每个环节的衔接——报名表单、场地分配、实时比分与数据留痕。这些看似细碎的模块，构成了参与者对一场比赛最直接的记忆。
+        </p>
+
+        <p>
+            在赛事组织里，信息透明度与响应速度同等重要。通过统一的调度界面，工作人员可以减少口头传递的损耗，参赛者也能提前了解自己的赛程与对手。把模糊的沟通变成清晰的排期，这正是体育服务从粗放走向精细的关键一步。
+        </p>
+
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>赛事结构可视化</strong>
+                <span>从小组循环到淘汰阶段，对阵关系与晋级路径一目了然，减少临时调整带来的混乱。</span>
+            </div>
+            <div class="feature-item">
+                <strong>多角色权限区隔</strong>
+                <span>裁判、队务与观众各有所见，信息分级呈现，不影响比赛专注度。</span>
+            </div>
+            <div class="feature-item">
+                <strong>结果沉淀与归档</strong>
+                <span>每轮比分、技术统计自动汇总，便于赛后复盘与长期记录留存。</span>
+            </div>
+        </div>
+
+        <div class="scene-note">
+            <h2>场景侧写 · 日常赛事模块</h2>
+            <p>
+                当一场羽毛球团体赛同时开打六片场地，裁判长需要快速确认记分卡是否同步；当篮球联赛进入第五轮，积分榜的细微变化可能影响出线形势——这类场景下，稳定的数据中枢远比临场喊话更可靠。满冠体育在真实比赛中多次承担底层的记分与状态同步，不依赖额外的沟通成本。
+            </p>
+            <p>
+                目前已有部分地方体育协会、学校体育组将流程接入该体系。如果你正在筹备一场需要清晰赛程与统计的活动，不妨了解 <a href="https://official-mgsport.com" class="quiet-link">满冠体育</a> 提供的线上化支持——从创建赛事到导出报表，步骤足够直接。
+            </p>
+        </div>
+
+        <div class="faq-part">
+            <h3>常见疑问摘要</h3>
+            <p>
+                <strong>是否支持自定义项目？</strong> 核心赛制模板覆盖球类、电竞及综合运动会，赛程规则可配置。
+            </p>
+            <p>
+                <strong>数据导出格式？</strong> 支持 CSV 与简化 PDF，便于打印或二次编辑。
+            </p>
+            <p>
+                <strong>是否需要下载客户端？</strong> 网页端直接操作，移动端适配基本功能，无需安装。
+            </p>
+        </div>
+
+        <div class="gentle-footer">
+            <span>关于赛事工具的更多细节，可参考 <a href="https://official-mgsport.com">满冠体育</a> · 信息页持续更新</span>
+        </div>
+    </div>
+</body>
+</html>
